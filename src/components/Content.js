@@ -1,10 +1,10 @@
 import {resources} from "../resources"
 import Title from "./Title"
-import Catagory  from "./Catagory"
 import Link from "./Link"
 import { useState } from "react"
+import Cat from "./Cat"
 
-export default function Content({title,url,category}) {
+export default function Content({button, title,  cat, Catagory}) {
     const [selectedResource, setSelectedResource] = useState(null)
 
     const handleButtonClick = (resource) => {
@@ -14,6 +14,7 @@ export default function Content({title,url,category}) {
 return (
         <div className="conteiner">
             <header>
+                <h1>Ressursarkiv</h1>
                 <nav>
                     {resources.map((resource, index) => (
                         <button key={index} onClick={() => handleButtonClick(resource)} >{resource.title}</button>
@@ -26,7 +27,7 @@ return (
                         <>
                             <Title title={selectedResource.title} /> 
                             <Link url={selectedResource.url} />
-                            <Catagory category={selectedResource.category} />
+                            <Cat cat={selectedResource.category}/>
                         </>
                     )}
                 </article>
