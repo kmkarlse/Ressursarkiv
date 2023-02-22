@@ -1,0 +1,74 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/helpers";
+
+* {
+    font-family: Helvetica;
+}
+
+#page-container {
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    padding-top: 0px;
+    max-width: 750px;
+    width: 100%;
+    border-top-color: lightskyblue;
+    
+}
+
+.row {
+    justify-content: center;
+} 
+
+header {
+    max-width: 750px;
+    width: 100%;
+
+    h1 {
+        border-style: solid;
+        border-color: gray;
+        padding: 20px;
+        margin-top: 100px;
+        color: gray;
+    }
+    
+
+    button {
+        margin: 5px;
+        padding: 5px;
+        border-style: solid;
+        text-decoration: none;
+        display: inline-block;
+        background-color: lightgray;
+        border-color: darkgray;
+        color: black;
+
+
+        :active {
+            background-color: lightskyblue;
+            border-color: lightskyblue;
+            border-style: solid;
+        }
+
+        :focus {
+            background-color: red;
+        }
+
+    }    
+
+}
+
+
+    

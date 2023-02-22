@@ -1,5 +1,5 @@
 
 
 export default function Cat({cat}) {
-    return <span>{cat}</span>
+    return <h3>Category: {cat}</h3>
   }
