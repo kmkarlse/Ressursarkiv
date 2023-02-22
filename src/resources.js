@@ -1,6 +1,6 @@
 
 
-export const resources = [
+const resources = [
     {
         title: "W3Schools",
         url: "https://www.w3schools.com/html/",
@@ -77,3 +77,6 @@ export const resources = [
         category: "headless-cms"
     }
 ]
+
+
+export default resources
