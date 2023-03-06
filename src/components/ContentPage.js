@@ -7,14 +7,14 @@ export default function ContentPage({resources}) {
     console.log(resource)
 
     return (
-        <>
+        <section className="article-box">
             {resource.map((e, index) => (
-                <section key={index}>
-                    <h1>{e.title}</h1>
-                    <a href={e.url}>{e.url}</a>
-                    <h3>{e.category}</h3>
-                </section>
+                <article key={index}>
+                    <h2>{e.title}</h2>
+                    <p>Source: <a href={e.url}>{e.url}</a></p>
+                    <h3>Category: {e.category}</h3>
+                </article>
             ))}
-        </>
+        </section>
     )
 }

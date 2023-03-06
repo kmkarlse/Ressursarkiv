@@ -17,43 +17,49 @@
     font-family: Helvetica;
 }
 
-#page-container {
-    border-style: solid;
-    border-color: gray;
-    padding: 10px;
-    padding-top: 0px;
-    max-width: 750px;
-    width: 100%;
-    border-top-color: lightskyblue;
-    
-}
-
-.row {
+main {
     justify-content: center;
-} 
+    display: flex;
+}
 
 .content-card {
     max-width: 750px;
     width: 100%;
+}
 
-    h1 {
-        border-style: solid;
-        border-color: gray;
-        padding: 20px;
-        margin-top: 100px;
-        color: gray;
-    }
+.article-box {
+    margin: 2rem;
+    border-style: solid;
+    border-color: gray;
+    padding: 5px;
+    width: 100%;
+    max-width: 750px;
+}
+
+
+h1 {
+    border-style: solid;
+    border-color: gray;
+    padding: 20px;
+    margin-top: 100px;
+    color: gray;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
     
-
-    button {
-        margin: 5px;
-        padding: 5px;
-        border-style: solid;
-        text-decoration: none;
-        display: inline-block;
-        background-color: lightgray;
-        border-color: darkgray;
-        color: black;
+    
+.button {
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+    background-color: lightgray;
+    border-color: darkgray;
+    color: black;
+    gap: 1rem;
+    text-align: center;
 
 
         :active {
@@ -62,13 +68,13 @@
             border-style: solid;
         }
 
-        :focus {
-            background-color: red;
+        :hover {
+            background-color: lightskyblue;
         }
 
-    }    
+}    
 
-}
+
 
 
     

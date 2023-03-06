@@ -7,7 +7,7 @@ export default function Main({resources}) {
 return (
     <>
         {res.map((resource, index) => (
-            <Link key={index} to={resource} >
+            <Link className='button' key={index} to={resource} >
                 <ContentCard title={resource}/>
             </Link>
         ))}

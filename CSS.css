@@ -41,7 +41,7 @@ button {
 }
 
 #page-content {
-    margin-left: auto; margin-right: auto;
+    margin: 0 auto;
     border-style: solid;
     border-color: gray;
     padding: 10px;

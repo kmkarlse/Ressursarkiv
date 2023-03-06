@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 
 export default function Layout() {
 return (
-        <div className="conteiner">
+        <div>
             <header>
                 <Link to="/" >
                     <h1>Ressursarkiv</h1>
