@@ -22,6 +22,10 @@ main {
     display: flex;
 }
 
+header {
+    margin-top: 35px;
+}
+
 .content-card {
     max-width: 750px;
     width: 100%;
@@ -56,6 +60,7 @@ h1 {
     
 .button {
     margin: 5px;
+    margin-top: 20px;
     padding: 5px;
     border-style: solid;
     text-decoration: none;
@@ -63,19 +68,12 @@ h1 {
     background-color: lightgray;
     border-color: darkgray;
     color: black;
-    gap: 1rem;
     text-align: center;
 
 
-        :active {
-            background-color: lightskyblue;
-            border-color: lightskyblue;
-            border-style: solid;
-        }
-
-        :hover {
-            background-color: lightskyblue;
-        }
+    :hover {
+        background-color: lightskyblue;
+    }
 
 }    
 
